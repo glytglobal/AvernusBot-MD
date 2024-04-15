@@ -1,31 +1,25 @@
-# MylingBot - MD
-> <b>🚀 VERSIÓN 1.0 (Beta)</b>
+# 𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂
+> <b>░ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 - 𝟏.𝟎.𝟎</b>
 
 <p align="center"> 
-<a href="https://github.com/WilsonOFC/"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color0000e6&width=435&lines=MylingBot -MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
+<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=BIENVENIDO;BIENVENIDA;AVERNUSBOT-MD" height="90px"></a> 
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-<p align="center">
-<img src="https://telegra.ph/file/2bc7f7ff2bb54b067b450.jpg" alt="ERROR - DSK" width="900"/>
+<img src="https://telegra.ph/file/e231af39534c57f667905.jpg" alt="𝐀𝐕𝐄𝐑𝐍𝐔𝐒" width="900"/>
 </p>
 
-> 𝑴𝑼𝑪𝑯𝑨𝑺 𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑷𝑶𝑹 𝑷𝑹𝑬𝑭𝑬𝑹𝑰𝑹𝑵𝑶𝑺 👑🔥
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-
 <p align="center">
-<a href="#"><img title="MylingBot - OFC" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA ESTRELLITA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=0000e6&style=for-the-badge"></a>
+<a href="#"><img title="𝐀𝐕𝐄𝐑𝐍𝐔𝐒" src="https://img.shields.io/badge/𝐒𝐈 𝐓𝐄 𝐀𝐆𝐑𝐀𝐃𝐀 𝐄𝐋 𝐑𝐄𝐏𝐎𝐒𝐈𝐓𝐎𝐑𝐈𝐎 𝐑𝐄𝐆𝐀𝐋𝐀𝐌𝐄 𝐔𝐍𝐀 𝐄𝐒𝐓𝐑𝐄𝐋𝐋𝐈𝐓𝐀 🌟 ¡𝐆𝐑𝐀𝐂𝐈𝐀𝐒! -red?colorA=255ff0000&colorB=0000e6&style=for-the-badge"></a>
 </p>  
 
 <p align="center">
-<a href="#"><img title="MylingBot - MD" src="https://img.shields.io/badge/𝖢𝖮𝖬𝖯𝖠𝖳𝖨𝖡𝖫𝖤 𝖢𝖮𝖭 𝖫𝖠 𝖵𝖤𝖱𝖲𝖨𝖮𝖭 𝖬𝖴𝖫𝖳𝖨 𝖣𝖨𝖲𝖯𝖮𝖲𝖨𝖳𝖨𝖵𝖮𝖲 𝖣𝖤 𝖶𝖧𝖠𝖳𝖲𝖠𝖯𝖯-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge"></a>
+<a href="#"><img title="𝐀𝐕𝐄𝐑𝐍𝐔𝐒" src="https://img.shields.io/badge/𝐂𝐎𝐌𝐏𝐀𝐓𝐈𝐁𝐋𝐄 𝐂𝐎𝐍 𝐋𝐀 𝐌𝐔𝐋𝐓𝐈 𝐃𝐈𝐒𝐏𝐎𝐒𝐈𝐓𝐈𝐕𝐎𝐒 𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 -red?colorA=ed0707&colorB=ed0707&style=for-the-badge"></a>
 </p>
 
 <p align="center">   
-<a href="https://github.com/WilsonOFC/MylingBot-MD/networ
-  k/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/WilsonOFC/MylingBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/glytglobal/AvernusBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=blue&style=flat-square"></a>
 </p>
 
 ### Cuentas Oficiales:

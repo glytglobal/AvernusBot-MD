@@ -17,9 +17,9 @@
 </p>
 
 <p align="center">   
-<a href="https://github.com/glytglobal/AvernusBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/WilsonOFC/MylingBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/WilsonOFC/MylingBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/WilsonOFC/MylingBot-MD?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://github.com/WilsonOFC/MylingBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=Stars&color=blue&style=flat-square"></a>
+<a href="https://github.com/glytglobal/AvernusBot-MD/network/members"><img title="FORKS" src="https://img.shields.io/github/forks/glytglobal/AvernusBot-MD?label=FORKS&color=blue&style=flat-square"></a>
+<a href="https://github.com/glytglobal/AvernusBot-MD/watchers"><img title="MIRANDO" src="https://img.shields.io/github/watchers/glytglobal/AvernusBot-MD?label=MIRANDO&color=blue&style=flat-square"></a>
+<a href="https://github.com/glytglobal/AvernusBot-MD/stargazers"><img title="ESTRELLAS" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=ESTRELLAS&color=blue&style=flat-square"></a>
 </p>
 
 ### Cuentas Oficiales:

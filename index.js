@@ -1,4 +1,4 @@
-console.log('🚀 Iniciando MylingBot...')
+console.log('彡 INICIADO AVERNUS - OFC 彡')
 import { join, dirname } from 'path'
 import { createRequire } from 'module'
 import { fileURLToPath } from 'url'
@@ -15,12 +15,12 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('Myling\nBot\nMD', {
+say('AVERNUS\nBOT\nMD', {
 font: 'block',
 align: 'center',
-colors: ['green', 'blue']
+colors: ['blue', 'blue']
 })
-say(`Este Bot Se Encuentra En Desarrollo, By: Wilson`, {
+say(`MODERME BY:\nGL YT MX (ONE DEV)`, {
 font: 'console',
 gradient: ['blue', 'magenta']
 })

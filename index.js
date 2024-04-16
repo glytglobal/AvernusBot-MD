@@ -18,11 +18,12 @@ const rl = createInterface(process.stdin, process.stdout)
 say('AVERNUS\nBOT\nMD', {
 font: 'block',
 align: 'center',
-colors: ['blue', 'blue']
+colors: ['white', 'black']
 })
 say(`MODERME BY:\nGL YT MX (ONE DEV)`, {
 font: 'console',
-gradient: ['blue', 'magenta']
+align: 'center',
+gradient: ['blue', '']
 })
 
 var isRunning = false

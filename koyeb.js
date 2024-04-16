@@ -6,9 +6,9 @@ RUN sudo dnf -y update &&\
     sudo dnf clean all -y
 
 RUN git clone https://github.com/WilsonOFC/MylingBot-MD/tree/main
-WORKDIR /root/MylingBot-MD
+WORKDIR /root/AvernusBot-MD
 
-COPY ./root/MylingBot-MD
+COPY ./root/AvernusBot-MD
 
 RUN yarn install
 

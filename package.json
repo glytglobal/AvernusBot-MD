@@ -1,5 +1,5 @@
 {
-"name": "MylingBot-MD",
+"name": "AvernusBot-MD",
 "version": "1.0.0",
 "description": "Super Bot WhatsApp",
 "main": "index.js",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/WilsonOFC/MylingBot-MD",
+"homepage": "https://github.com/glytglobal/AvernusBot-MD",
 "author": {
-"name": "WilsonOFC" }, 
+"name": "glytglobal" }, 
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/WilsonOFC/MylingBot-MD.git" },
+"url": "git+https://github.com/glytglobal/AvernusBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/WilsonOFC/MylingBot-MD/issues" },
+"url": "https://github.com/glytglobal/AvernusBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
     "@whiskeysockets/baileys": "^6.6.0",

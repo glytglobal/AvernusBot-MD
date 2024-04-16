@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: MylingBot-MD
+    name: AvernusBot-MD
     env: docker
     region: Frankfurt
     plan: free

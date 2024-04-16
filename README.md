@@ -2,7 +2,7 @@
 > <b>░ 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 - 𝟏.𝟎.𝟎</b>
 
 <p align="center"> 
-<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=BIENVENIDO;BIENVENIDA;AVERNUSBOT-MD" height="90px"></a> 
+<a href="https://github.com/glytglobal/"><img src="http://readme-typing-svg.herokuapp.com?font=fira+Code&pause=1000&colored0707&width=435&lines=𝑩𝑰𝑬𝑵𝑽𝑬𝑵𝑰𝑫𝑶/𝑨; 𝑮𝑹𝑨𝑪𝑰𝑨𝑺+𝑷𝑶𝑹+𝑼𝑺𝑨𝑹+𝑬𝑳+𝑩𝑶𝑻;𝑨𝑽𝑬𝑹𝑵𝑼𝑺𝑩𝑶𝑻-𝑴𝑫" height="90px"></a> 
 </p>
 
 <img src="https://telegra.ph/file/e231af39534c57f667905.jpg" alt="𝐀𝐕𝐄𝐑𝐍𝐔𝐒" width="900"/>
@@ -19,57 +19,57 @@
 <p align="center">   
 <a href="https://github.com/glytglobal/AvernusBot-MD/network/members"><img title="FORKS" src="https://img.shields.io/github/forks/glytglobal/AvernusBot-MD?label=FORKS&color=blue&style=flat-square"></a>
 <a href="https://github.com/glytglobal/AvernusBot-MD/watchers"><img title="MIRANDO" src="https://img.shields.io/github/watchers/glytglobal/AvernusBot-MD?label=MIRANDO&color=blue&style=flat-square"></a>
-<a href="https://github.com/glytglobal/AvernusBot-MD/stargazers"><img title="ESTRELLAS" src="https://img.shields.io/github/stars/WilsonOFC/MylingBot-MD?label=ESTRELLAS&color=blue&style=flat-square"></a>
+<a href="https://github.com/glytglobal/AvernusBot-MD/stargazers"><img title="ESTRELLAS" src="https://img.shields.io/github/stars/glytglobal/AvernusBot-MD?label=ESTRELLAS&color=blue&style=flat-square"></a>
 </p>
 
-### Cuentas Oficiales:
-> Al acceder a la plataforma, obtendrás acceso a todos los enlaces oficiales de MylingBot. Además, te mantendremos informado con boletines y mensajes exclusivos sobre las últimas novedades. La página se actualiza constantemente para ofrecerte la información más relevante. ¡No te pierdas ninguna actualización y únete a nuestro canal ahora mismo!
+### INFO - AV:
+> AL ACCEDER A LA PLATAFORMA OFICIAL DE AVERNUSBOT-MD TENDRAS MAYOR ACCESO A ESTAR INFORMADO SOBRE SUS ACTUALIZACIONES/NOVEDADES/CARACTERISTICAS/BOTS Y MUCHOS MAS.
 
-<a href="https://www.atom.bio/MylingBot">
-<img src="https://img.shields.io/badge/Redes_Sociales-red?style=for-the-badge&logo=biolink&logoColor=white">
+<a href="https://AvernusBot.pulse.is">
+<img src="https://img.shields.io/badge/Redes_Sociales-FF0000?style=for-the-badge&logo=biolink&logoColor=white">
 </a>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 
-## 🔥👑Metodos de Instalacion👑🔥
+------
 
-> **¿Qué es Termux?**
+### 彡 INSTALACION 彡
 
-> [!Note]
-> Termux es un ejecutador de codigos, permite instalar archivos, Bots y ejecutar comandos, este metodo es gratuito, sin embargo tiene algunas desventajas que un servidor premium.
+------
 
-> [!Important]
-> Para usar termux e instalar nuestro bot, es necesario algunos recursos del telefono movil o computadora. que se encargaran de almacenar los datos del mismo, algunos de los requisitos son: WiFi, 5 Gigas de almacenamiento, 1,5 Gigas de RAM, 2 numeros telefonicos (dueño y numero del bot) y 2 telefonos movil (opcional)
+> #### **INFORMACION SOBRE TERMUX**
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+> [!NOTE]
+> <a href="https://telegra.ph/INFO---TERMUX-04-16">**DESCUBRA TODA LA INFORMACION SOBRE TERMUX**</a>
 
-###  (OPCIÓN 1) 🪄 INSTALACIÓN AUTOMÁTICA 💥
-[![blog](https://img.shields.io/badge/Instalacion-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/shorts/ZLJYDUM6vSY)
-> [!Important]
+> [!IMPORTANT]
+> PARA QUE EL NUESTRO BOT SEA INSTALABLE LE RECOMENDAMOS QUE TENGA MAXIMO 5 GB DE ESPACIO O RAM EN SU DISPOSITIVO, TENER DOS DISPOSITIVOS (OPCIONAL). 
+
+#### *`彡 INSTALACIÓN AUTOMÁTICA`*
+> [!IMPORTANT]
 > COMANDOS PARA INSTALAR DE FORMA AUTOMÁTICA EN TERMUX
 ```bash
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/Myling.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/glytglobal/AvernusBot-MD/master/Avernus.sh | bash
 ```
 ```js
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
 // PARAMETROS EDITABLES
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/WilsonOFC/MylingBot-MD/master/myling.sh | bash"
+"wget -O - https://raw.githubusercontent.com/WilsonOFC/AvernusBot-MD/master/Avernus.sh | bash"
 
-// PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
-"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/myling.sh | bash"
+// PARÁMETROS QUE PUEDE SER MODIFICADOS ==> "[...]"
+"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/Avernus.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`MylingBot.sh`](https://github.com/WilsonOFC/MylingBot-MD/blob/master/myling.sh)
+#### MODIFICAR ARCHIVO [`AVERNUS.SH`](https://github.com/glytglobal/AvernusBot-MD/blob/master/Avernus.sh)
 ```js
-//LÍNEAS A MODIFICAR
-205 --> "git clone https://github.com/[user]/[repositorio].git"
-//EJEMPLO: git clone https://github.com/WilsonOFC/MylingBot-MD.git
+// LÍNEAS A MODIFICAR
+205 ==> "git clone https://github.com/[user]/[repositorio].git"
+// EJEMPLO: git clone https://github.com/glytglobal/AvernusBot-MD.git
 
-209 --> "cd [repositorio]"
-//EJEMPLO: cd MylingBot-MD
+209 ==> "cd [repositorio]"
+//EJEMPLO: cd AvernusBot-MD
 
 // UNA VEZ HECHO LOS CAMBIOS EJECUTE LOS NUEVOS COMANDOS EN TERMUX 
 ```

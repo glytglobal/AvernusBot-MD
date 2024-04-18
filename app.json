@@ -1,7 +1,7 @@
 {
-  "name": "𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫", 
+  "name": "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃", 
   "description": "Super Bot WhatsApp",
-  "repository": "https://github.com/WilsonOFC/MylingBot-MD",
+  "repository": "https://github.com/glytglobal/AvernusBot-MD",
   "logo": "https://i.imgur.com/8fK4h6F.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [

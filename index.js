@@ -15,15 +15,15 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 
-say('AVERNUS\nBOT\nMD', {
+say('Avernus\nBot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['white', 'black']
+colors: ['#333333', 'black']
 })
-say(`MODERME BY:\nGL YT MX (ONE DEV)`, {
+say(`CREATE BY\nGL YT MX (ONE DEV)`, {
 font: 'console',
 align: 'center',
-gradient: ['blue', '']
+gradient: ['blue', 'magenta']
 })
 
 var isRunning = false

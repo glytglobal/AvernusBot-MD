@@ -18,7 +18,7 @@ const rl = createInterface(process.stdin, process.stdout)
 say('Avernus\nBot\nMD', {
 font: 'block',
 align: 'center',
-colors: ['#333333', 'black']
+colors: ['#3456ff', 'black']
 })
 say(`CREATE BY\nGL YT MX (ONE DEV)`, {
 font: 'console',

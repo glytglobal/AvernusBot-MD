@@ -127,34 +127,34 @@ opcion = '1'
 }
 if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) {
 do {
-let lineM = '⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ ⋯ 》'
-opcion = await question(`╭${lineM}  
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('┊')} ${chalk.blue.bgBlue.bold.cyan('MÉTODO DE VINCULACIÓN')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}   
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 1:')} ${chalk.greenBright('Código QR.')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.redBright('⇢  Opción 2:')} ${chalk.greenBright('Código de 8 digitos.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}     
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('Escriba sólo el número de')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.magenta('la opción para conectarse.')}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-┊ ${chalk.blueBright('╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')}    
-┊ ${chalk.blueBright('┊')} ${chalk.red.bgRed.bold.green('CONSEJO:')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.cyan('Si usa Termux, Replit, Linux, o Windows')}
-┊ ${chalk.blueBright('┊')} ${chalk.italic.cyan('Use estos comandos para una ejecución directa:')}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm run qr ${chalk.italic.magenta('(Inicia con código QR)')}`)}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm run code ${chalk.italic.magenta('(Inicia con código de 8 dígitos)')}`)}
-┊ ${chalk.blueBright('┊')} ${chalk.bold.yellow(`npm start ${chalk.italic.magenta('(Inicio predeterminado con opciones)')}`)}
-┊ ${chalk.blueBright('╰┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
-╰${lineM}\n${chalk.bold.magentaBright('---> ')}`)
+let lineM = '━━━━━━━━━━━━━━⪩'
+opcion = await question(`┏${lineM}  
+┊ ${chalk.blueBright('┏━━━━━━━━━━━━━━━◉')}
+┊ ${chalk.blueBright('┃⪩')} ${chalk.blue.bgBlue.bold.cyan('METODOS DE VINCULACION')}
+┊ ${chalk.blueBright('┗━━━━━━━━━━━━━━━◉')}   
+┊ ${chalk.blueBright('┏━━━━━━━━━━━━━━━◉')}     
+┊ ${chalk.blueBright('┃')} ${chalk.green.bgMagenta.bold.yellow('¿CÓMO DESEA CONECTARSE?')}
+┊ ${chalk.blueBright('┃')} ${chalk.bold.redBright('⪩  OPCION 1:')} ${chalk.greenBright('CODIGO QR.')}
+┊ ${chalk.blueBright('┃')} ${chalk.bold.redBright('⪩  OPCION 2:')} ${chalk.greenBright('CODIGO DE 8 DÍGITOS (CODE).')}
+┊ ${chalk.blueBright('┗━━━━━━━━━━━━━━━◉')}
+┊ ${chalk.blueBright('┏━━━━━━━━━━━━━━━◉')}     
+┊ ${chalk.blueBright('┃')} ${chalk.italic.magenta('ESRIBA EL NÚMERO DE')}
+┊ ${chalk.blueBright('┃')} ${chalk.italic.magenta('LA OPCIONES QUE DESEA PARA CONECTARSE.')}
+┊ ${chalk.blueBright('┗━━━━━━━━━━━━━━━◉')} 
+┊ ${chalk.blueBright('┏━━━━━━━━━━━━━━━◉')}    
+┊ ${chalk.blueBright('┃')} ${chalk.red.bgRed.bold.green('NOTA:')}
+┊ ${chalk.blueBright('┃')} ${chalk.italic.cyan('SI USTED USA TERMUX / REPLIT / LINUX / WINDOWS')}
+┊ ${chalk.blueBright('┃')} ${chalk.italic.cyan('USE ESTOS COMANDOS PARA UNA EJECUCION DIRECTA:')}
+┊ ${chalk.blueBright('┃')} ${chalk.bold.yellow(`npm run qr ${chalk.italic.magenta('(INICIA CON CÓDIGO QR)')}`)}
+┊ ${chalk.blueBright('┃')} ${chalk.bold.yellow(`npm run code ${chalk.italic.magenta('(INICIA CON CÓDIGO DE 8 DIGITOS)')}`)}
+┊ ${chalk.blueBright('┃')} ${chalk.bold.yellow(`npm start ${chalk.italic.magenta('(INICIO PREDETERMINADO CON MULTIPLES OPCIONES)')}`)}
+┊ ${chalk.blueBright('┗━━━━━━━━━━━━━━⪩')} 
+╰${lineM}\n${chalk.bold.magentaBright('━━⪼ ')}`)
 //if (fs.existsSync(`./${authFile}/creds.json`)) {
 //console.log(chalk.bold.redBright(`PRIMERO BORRE EL ARCHIVO ${chalk.bold.greenBright("creds.json")} QUE SE ENCUENTRA EN LA CARPETA ${chalk.bold.greenBright(authFile)} Y REINICIE.`))
 //process.exit()
 if (!/^[1-2]$/.test(opcion)) {
-console.log('[ ❗ ] Por favor, seleccione solo 1 o 2.\n')
+console.log('⪼ POR FAVOR, SOLO UTILIZE 1 O 2 DEPENDIENDO DE LA OPCION QUE DESEE PARA CONECTAR.\n')
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${authFile}/creds.json`))
 }
 
@@ -162,7 +162,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['MylingBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['MylingBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
+browser: opcion == '1' ? ['MylingBot-MD', 'Safari', '2.0.0'] : methodCodeQR ? ['AvernusBot-MD', 'Safari', '2.0.0'] : ['Ubuntu', 'Chrome', '110.0.5585.95'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -215,7 +215,7 @@ rl.close()
             let codigo = await conn.requestPairingCode(numeroTelefono)
             codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
             //console.log(chalk.yellow('[ 🚩 ] introduce el código de emparejamiento en WhatsApp.'));
-            console.log(chalk.black(chalk.bgGreen(`👑CODIGO DE INICIO SESIÓN👑`)), chalk.black(chalk.white(codigo)))
+            console.log(chalk.black(chalk.bgGreen(`≫ CÓDIGO DE INICIÓ DE SESION -`)), chalk.black(chalk.white(codigo)))
         }, 3000)
 }}
 }
@@ -312,7 +312,7 @@ async function connectionUpdate(update) {
   if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-    console.log(chalk.yellow('[ 🚩 ] Escanea el código QR.'));
+    console.log(chalk.yellow('≫ ESCANEA EL CÓDIGO QR.'));
  }}
   if (connection == 'open') {
    console.log(chalk.greenBright('\n╭┈ ┈ ┈ ┈ ┈ • 𝙈𝙮𝙡𝙞𝙣𝙜𝘽𝙤𝙩-𝙈𝘿 💖 • ┈ ┈ ┈ ┈ ┈╮\n┊ 💚 CONEXIÓN EXITOSA CON WHATSAPP 💚\n╰┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈╯\n'));

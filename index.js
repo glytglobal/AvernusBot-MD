@@ -23,7 +23,7 @@ colors: ['#3456ff', 'black']
 say(`CREATE BY\nGL YT MX (ONE DEV)`, {
 font: 'console',
 align: 'center',
-gradient: ['blue', 'magenta']
+gradient: ['blue', 'red']
 })
 
 var isRunning = false

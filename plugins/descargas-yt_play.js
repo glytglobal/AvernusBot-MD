@@ -10,29 +10,22 @@ try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
+additionalText = '𝘼𝙐𝘿𝙄𝙊'
 } else if (command === 'play2') {
-additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
-let captionvid = `☾︎☽︎ シ︎═══ ${vs} ═══シ︎ ☾︎☽︎*
+additionalText = '𝙑𝙄𝘿𝙀𝙊'}
+let captionvid = `*⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐏𝐋𝐀𝐘*
 
-❥︎ ᴛɪᴛᴜʟᴏ
-♫︎  ${yt_play[0].title}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-❥︎ sᴇ ʜɪᴢᴏ ʜᴀᴄᴇ
-♫︎ ${yt_play[0].ago}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-❥︎ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ
-♫︎ ${secondString(yt_play[0].duration.seconds)}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-❥︎ᴠɪsᴛᴀs ᴅᴇʟ ᴀᴜᴅɪᴏ
-♫︎ ${MilesNumber(yt_play[0].views)}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-❥︎ ʟɪɴᴋ ᴅɪʀᴇᴄᴛᴏ
-♫︎ ${yt_play[0].url}
-﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
-♫︎ 𝙀𝙉𝙑𝙄𝘼𝘿𝙊 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
+┏━━━━━━━━◉
+┃𝐓𝐈𝐓𝐔𝐋𝐎 - ${yt_play[0].title}
+┃𝐒𝐔𝐁𝐈𝐃𝐎 - ${yt_play[0].ago}
+┃𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍 - ${secondString(yt_play[0].duration.seconds)}
+┃𝐕𝐈𝐒𝐓𝐀𝐒 - ${MilesNumber(yt_play[0].views)}
+┃𝐋𝐈𝐍𝐊 - ${yt_play[0].url}
+┗━━━━━━━━◉
 
-*☾︎ ✿ ☽︎ ☀═══ ${vs} ═══☀︎︎ ☾︎ ✿ ☽︎*`  
+⏤͟͟͞͞𝙀𝙉𝙑𝙄𝘼𝘿𝙊 𝙎𝙐 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
+
+*✿━━━━━━━━━━✿*`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
@@ -129,7 +122,7 @@ const yt = await youtubedl(v).catch(async _ => await youtubedlv2(v))
 const dl_url = await yt.video[q].download()
 const ttl = await yt.title
 const size = await yt.video[q].fileSizeH
-await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ${wm}  ❱━⬣\n┃ 💜 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀\n┃ ${ttl}\n╰━━━━━❰ *𓃠 ${vs}* ❱━━━━⬣`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
+await await conn.sendMessage(m.chat, { video: { url: dl_url }, fileName: `${ttl}.mp4`, mimetype: 'video/mp4', caption: `⪨ ${wm} ⪩\n𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${ttl}\n _POWERED BY GL YT MX_`, thumbnail: await fetch(yt.thumbnail) }, { quoted: m })
 } catch {   
 try {  
 let mediaa = await ytMp4(yt_play[0].url)
@@ -142,7 +135,7 @@ let n = lolh.result.title || 'error'
 let n2 = lolh.result.link
 let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
-await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `╭━❰  ${wm}  ❱━⬣\n┃ 💜 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀\n┃ ${n}\n╰━━━━━❰ *𓃠 ${vs}* ❱━━━━⬣`, thumbnail: await fetch(n4) }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `⪨ ${wm} ⪩\n𝐓𝐈𝐓𝐔𝐋𝐎:\n┃ ${n}\n _POWERED BY GL YT MX_`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
 }}}    
 }} catch {

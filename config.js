@@ -8,7 +8,7 @@ import axios from "axios"
 import moment from "moment-timezone"
 import { en, es, id, ar, pt, fr } from "./lib/idiomas/total-idiomas.js"
  
-//⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰  
+// ⪨━━━━━━━ 𝐎𝐖𝐍𝐄𝐑𝐒 / 𝐏𝐑𝐎𝐏𝐈𝐄𝐓𝐀𝐑𝐈𝐎𝐒 ━━━━━━━⪩
 
 global.owner = [
 ["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 ', true],
@@ -18,26 +18,24 @@ global.owner = [
 
 global.mods = []
 global.prems = ["5493795319022"]
-//key de violetics
+// KEY DE VIOLETICS
 global.Key360 = ["964f-0c75-7afc"]
    
   
-//⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰ 
-//Agrega el Idioma que quieres que tenga 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫
-//Add the language you want 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫 to have
+// ⪨━━━━━━ 𝐈𝐃𝐈𝐎𝐌𝐀 ━━━━━━⪩
+// SELECCIONE EL IDIOMA QUE QUIERE QUE SEA PARA AVERNUS-BOT-MD
+// IDIOMAS PARA SELECCIONAR:
 //  es = Español         id = Bahasa Indonesia
 //  en = English         pt = Português 
 //  ar = عرب
 
-global.lenguajeMY = es //Idioma de 𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫, Ejemplo: es | en | pt...
+global.lenguajeMY = es // IDIOMA :: EJEMPLO: es|en|pt|id
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+// ◉━━━━━━━━━ KEYS / APIS ━━━━━━━━━━━◉
 
 global.openai_key = 'sk-0'
-/* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */
 
 global.openai_org_id = 'org-3'
-/* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */
 
 global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"]
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -80,40 +78,38 @@ global.APIKeys = {
 
 global.mods = []
 
-
-/*************************/
 global.cheerio = cheerio
 global.fs = fs
 global.fetch = fetch
 global.axios = axios
 global.moment = moment
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
+// ⪻ DATA - INFO ⪼
 
-global.official = [ // Agregate si eres Owner
-["5492964650915", '♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️', 1],
-["5493795319022", '𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐃𝐒𝐊', 1]]
+global.official = [
+["5493795319019", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', 1],
+["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', 1]]
 
-global.mail = '' //agrega tú correo
-global.desc = '' //agrega una descripción corta
-global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
-global.country = '' //agrega tú país ejemplo: 🇦🇷
+global.mail = 'glyt.xp.contacto@gmail.com' // AÑADA SU CORREO ELECTRONICO
+global.desc = '𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION CORTA
+global.desc2 = '𝐌𝐃𝐊 - 𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION LARGA
+global.country = '🇦🇷' // AÑADA SU PAIS/REGION: 🇦🇷
 
-global.packname = "☆𝑴𝒚𝒍𝒊𝒏𝒈-𝑩𝒐𝒕☆"
-global.author = "♥️🎩⚠︎   シ︎𝑾𝒊𝒍𝖘𝒐𝒏シ︎  ⚠︎🎩♥️"
+global.packname = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
+global.author = "𝐆𝐋 𝐘𝐓 𝐌𝐗"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = "1.0.0"
 global.vsJB = "1.0 (Beta)"
 
-global.ds = "𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃"
-global.gt = "☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆"
-global.yt = "https://youtube.com/"
+global.ds = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
+global.gt = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
+global.yt = "https://youtube.com/@GLYTMX"
 global.yt2 = "https://www.youtube.com/shorts/"
 global.ig = "https://www.instagram.com/"
-global.md = "https://github.com/WilsonOFC/MylingBot-MD/"
-global.fb = "https://www.facebook.com/WilsonWaoz"
+global.md = "https://github.com/glytglobal/AvernusBot-MD/"
+global.fb = "https://www.facebook.com/GLYTMX" // PROXIMAMENTE
 
 global.cnl = 'https://whatsapp.com/channel/1'
 global.nna = 'https://whatsapp.com/channel/2'
@@ -130,10 +126,9 @@ global.nnnttt3 = 'https://chat.whatsapp.com/8'
 global.nnnttt4 = 'https://chat.whatsapp.com/9'
 global.nnnttt5 = 'https://chat.whatsapp.com/10'
 global.paypal = 'https://paypal.me/WilsonWaoz'
-global.asistencia = 'Wa.me/5492964650915' //Dudas? escríbeme...
-global.asistencia2 = 'Wa.me/5493795319022' //Asistencia MylingBot-MD y Otros temas...
-global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5]
-// let selectedAccount = accountsmy[Math.floor(Math.random() * accountsmy.length)];
+global.asistencia = 'Wa.me/5493795319022' // SOY EL CREADOR DE AV (HABLAME)
+global.asistencia2 = 'Wa.me/5493795319022' // ASISTENCIA AVERNUS - BOT
+global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnnttt5]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -167,13 +162,13 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "ᖫ 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 ᖭ"
-global.igfg = "☆𝑴𝒚𝒍𝒊𝒏𝒈𝑩𝒐𝒕-𝑴𝑫☆"
-global.wait = "*⌛ _Cargando ..._ ▬▭▭▭▭▭▭*"
-global.waitt = "*⌛ _Cargando ..._ ▬▬▭▭▭*"
-global.waittt = "*⌛ _Cargando ..._ ▬▬▬▬▭▭*"
-global.waitttt = "*⌛ _Cargando ..._ ▬▬▬▬▬▬▭*"
-global.nomorown = "5492964650915"
+global.wm = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
+global.igfg = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
+global.wait = "*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 ▬▭▭▭▭▭▭*"
+global.waitt = "*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 ▬▬▭▭▭*"
+global.waittt = "*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 ▬▬▬▬▭▭*"
+global.waitttt = "*𝑪𝑨𝑹𝑮𝑨𝑵𝑫𝑶 ▬▬▬▬▬▬▭*"
+global.nomorown = "5493795319022"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
@@ -226,16 +221,12 @@ global.img18 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
 
 global.logogit = 'https://telegra.ph/file/75bbb5686e0dff952e79c.jpg'
 
-global.tagmd = 'https://telegra.ph/file/894e2ca457f185fc1a268.jpg'
-
-global.unity = ['https://telegra.ph/file/4df5e5acb792b18f282af.jpg', 'https://telegra.ph/file/2ec58abd9b31e4b40406e.png', 'https://telegra.ph/file/4f397f6c8bfddd9611354.jpg']
 global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, asistencia2, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/5f861408375b072c4b3d8.jpg']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
 global.autoresp = 'https://telegra.ph/file/988c8473c3bd4b6c6a341.png'
-//global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5, paypal, asistencia, asistencia2].getRandom()
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 

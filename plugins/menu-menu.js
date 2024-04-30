@@ -84,25 +84,13 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 const fkontak = {'key': {'participants': '0@s.whatsapp.net', 'fromMe': false, 'id': '3B64558B07848BD81108C1D14712018E'}, 'message': {'locationMessage': {'name': `彡 𝐌𝐨𝐝𝐞𝐫𝐦𝐞 𝐁𝐲 𝐆𝐋 𝐘𝐓 𝐌𝐗`, `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'}
  
 let menu = `
-彡 𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃 彡
+⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐁𝐎𝐓
 
-
-
-◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
-
---- 𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈 𝚆𝙸𝙻𝚂𝙾𝙽 ---
-
-◆ ⃟ ⃟ ░▒▓  ҈ ҈ ҈ ҈ ⃟ ♧ ⃟  ҈ ҈ ҈ ҈▓▒░ ⃟ ⃟ ◆
-
-⪨━✿ 𝐃𝐀𝐓𝐎𝐒 - 𝐌𝐘 ✿━⪩
-
-彡 *𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑺* » ${rtotalreg}/${totalreg}
-彡 _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
-彡 _${lenguajeMY['smsVersion']()}_ » _${vs}_
-彡 _${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
-彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_
-
-⪨━✿ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐈𝐍𝐅𝐎 ✿━⪩
+┃彡 *𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑨𝑫𝑶𝑺* » ${rtotalreg}/${totalreg}
+┃ _${lenguajeMY['smsUptime']()}_ » _${uptime}_ 
+┃彡 _${lenguajeMY['smsVersion']()}_ » _${vs}_
+┃彡 _${lenguajeMY['smsMode']()}_ » _${global.opts['self'] ? `${lenguajeMY['smsModePrivate']().charAt(0).toUpperCase() + lenguajeMY['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeMY['smsModePublic']().charAt(0).toUpperCase() + lenguajeMY['smsModePublic']().slice(1).toLowerCase()}`}_
+┃彡 _${lenguajeMY['smsBanChats']()}_ » _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_
 
 彡 𝑹𝑬𝑮𝑰𝑺𝑻𝑹𝑶 » ${user.registered === true ? `${user.registroC === true ? '_𝖢𝖮𝖬𝖯𝖫𝖤𝖳𝖮_' : '_𝖱𝖠𝖯𝖨𝖣𝖮_'}` : '_✕ 𝖲𝖨𝖭 𝖱𝖤𝖦𝖨𝖲𝖳𝖱𝖮_'}
 彡 𝑬𝑺𝑻𝑨𝑫𝑶 » ${typeof user.miestado !== 'string' ? '_X ' + usedPrefix + 'MIESTADO_' : '_ME SIENTO' + user.miestado + '_'}

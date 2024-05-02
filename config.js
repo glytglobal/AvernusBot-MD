@@ -128,7 +128,7 @@ global.nnnttt5 = 'https://chat.whatsapp.com/10'
 global.paypal = 'https://paypal.me/WilsonWaoz'
 global.asistencia = 'Wa.me/5493795319022' // SOY EL CREADOR DE AV (HABLAME)
 global.asistencia2 = 'Wa.me/5493795319022' // ASISTENCIA AVERNUS - BOT
-global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnnttt5]
+global.accountsmy = [cnl, nna, nn2, nn, nnn, nnnt, nnntt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, nnnttt5]
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 

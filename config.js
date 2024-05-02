@@ -16,7 +16,6 @@ global.owner = [
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-global.mods = []
 global.prems = ["5493795319022"]
 // KEY DE VIOLETICS
 global.Key360 = ["964f-0c75-7afc"]

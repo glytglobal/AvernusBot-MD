@@ -1,131 +1,23 @@
-function _0x773d() {
-    const _0x4b5047 = [
-        '91824pXIfQq',
-        '70836CsAmIr',
-        'OLQaT',
-        'toString',
-        '35PsSMoQ',
-        'user',
-        'jid',
-        '\x20⪼\x20',
-        'DiDDw',
-        'ykEHi',
-        'MEFQB',
-        'join',
-        'REcJZ',
-        '245298VzpeqQ',
-        'tLShi',
-        'rHhXW',
-        '392344CDIhLf',
-        'EURuP',
-        'data',
-        'catch',
-        'uptime',
-        '\x20-\x20𝐙𝐊\x20𝐃𝐄𝐕',
-        '5304321sLKqoC',
-        'status',
-        'message',
-        'send',
-        '16040GJseQS',
-        'all',
-        'JoPFa',
-        'once',
-        'floor',
-        'CtYuH',
-        '844278YIhuyr',
-        '𝐌𝐲𝐥𝐢𝐧𝐠𝐁𝐨𝐭-𝐌𝐃\x20::\x20',
-        '25wHqeNU',
-        'map',
-        'FRJNs'
-    ];
-    _0x773d = function () {
-        return _0x4b5047;
-    };
-    return _0x773d();
-}
-const _0x114b40 = _0x5d63;
-(function (_0x3fd645, _0x54d52d) {
-    const _0xce07d8 = _0x5d63, _0x2261c9 = _0x3fd645();
-    while (!![]) {
-        try {
-            const _0x1b81de = parseInt(_0xce07d8(0xc4)) / (0x1 * -0x1d89 + 0x1 * 0x112d + 0x41f * 0x3) + -parseInt(_0xce07d8(0xd0)) / (-0x4 * -0x57d + 0x95d + -0x643 * 0x5) + parseInt(_0xce07d8(0xca)) / (-0x1544 + -0x1cc3 * 0x1 + 0x320a) + parseInt(_0xce07d8(0xcf)) / (-0x1 * 0x2623 + 0x1bbc + 0xa6b) + parseInt(_0xce07d8(0xcc)) / (0x1 * 0x14c9 + -0x1cb + -0x12f9) * (parseInt(_0xce07d8(0xdc)) / (-0xa9 * -0x9 + -0x1d6c + 0x1 * 0x1781)) + parseInt(_0xce07d8(0xd3)) / (0x1 * -0x833 + -0x119b * -0x1 + -0x961) * (parseInt(_0xce07d8(0xba)) / (0xb6e * 0x2 + 0x1819 + -0x2eed)) + -parseInt(_0xce07d8(0xc0)) / (0x2255 + -0x1 * 0x8bf + -0x198d);
-            if (_0x1b81de === _0x54d52d)
-                break;
-            else
-                _0x2261c9['push'](_0x2261c9['shift']());
-        } catch (_0x147e6) {
-            _0x2261c9['push'](_0x2261c9['shift']());
-        }
-    }
-}(_0x773d, -0x4929 * 0x1 + 0x16c85 + -0x5c07 * -0x3));
-let handler = _0x4cb3f5 => _0x4cb3f5;
-handler[_0x114b40(0xc5)] = async function (_0x28ebd9) {
-    const _0x2b6476 = _0x114b40, _0x4945fd = {
-            'FRJNs': _0x2b6476(0xc2),
-            'ykEHi': function (_0x209bc0, _0x1e8deb, _0x4c2ba1) {
-                return _0x209bc0(_0x1e8deb, _0x4c2ba1);
-            },
-            'MEFQB': function (_0x3c6bf4, _0x470793) {
-                return _0x3c6bf4 * _0x470793;
-            },
-            'REcJZ': _0x2b6476(0xbe),
-            'rHhXW': function (_0x236cfa, _0x464ba6) {
-                return _0x236cfa(_0x464ba6);
-            }
-        };
-    let _0x3f7866 = global['db'][_0x2b6476(0xbc)]['settings'][this[_0x2b6476(0xd4)][_0x2b6476(0xd5)]], _0x508d3e = _0x4945fd[_0x2b6476(0xd9)](process[_0x2b6476(0xbe)](), -0x2f * 0x12 + 0x1 * 0x12d6 + -0xba0), _0x49b9f2;
-    process[_0x2b6476(0xc3)] && (process[_0x2b6476(0xc3)](_0x4945fd[_0x2b6476(0xdb)]), _0x49b9f2 = _0x4945fd[_0x2b6476(0xd9)](await new Promise(_0x4fb34a => {
-        const _0x35eb98 = _0x2b6476;
-        process[_0x35eb98(0xc7)](_0x4945fd[_0x35eb98(0xce)], _0x4fb34a), _0x4945fd[_0x35eb98(0xd8)](setTimeout, _0x4fb34a, -0x9a6 + -0x1bf6 + 0x2d6c);
-    }), 0x8a8 * -0x4 + -0x18d * 0x2 + -0x2 * -0x14d1));
-    let _0x22e068 = _0x4945fd[_0x2b6476(0xb9)](clockString, _0x508d3e), _0x5a7b2e = _0x2b6476(0xcb) + _0x22e068 + _0x2b6476(0xbf);
-    await this['updateProfileStatus'](_0x5a7b2e)[_0x2b6476(0xbd)](_0x457b6c => _0x457b6c), _0x3f7866[_0x2b6476(0xc1)] = new Date() * (-0xc7 * -0x1b + -0x1 * 0x102e + -0x1e * 0x29);
-};
-export default handler;
-function _0x5d63(_0x41fe85, _0x3cff22) {
-    const _0x554df3 = _0x773d();
-    return _0x5d63 = function (_0x5afab8, _0x4a10e7) {
-        _0x5afab8 = _0x5afab8 - (-0x2572 + 0x3f7 * 0x7 + 0xa6a);
-        let _0x2d6001 = _0x554df3[_0x5afab8];
-        return _0x2d6001;
-    }, _0x5d63(_0x41fe85, _0x3cff22);
-}
-function clockString(_0x36830d) {
-    const _0x5bbe6a = _0x114b40, _0x2d3a98 = {
-            'MjhNX': function (_0x80590c, _0x119d01) {
-                return _0x80590c(_0x119d01);
-            },
-            'tLShi': function (_0x537f1e, _0x118c6f) {
-                return _0x537f1e / _0x118c6f;
-            },
-            'OLQaT': function (_0x5086ad, _0x47b034) {
-                return _0x5086ad(_0x47b034);
-            },
-            'DiDDw': function (_0x15e77f, _0x578983) {
-                return _0x15e77f(_0x578983);
-            },
-            'TDhey': function (_0x5bd80d, _0x423107) {
-                return _0x5bd80d % _0x423107;
-            },
-            'CtYuH': function (_0x4f273f, _0x10d235) {
-                return _0x4f273f / _0x10d235;
-            },
-            'JoPFa': function (_0x4619e7, _0x47d00d) {
-                return _0x4619e7(_0x47d00d);
-            },
-            'FMosP': function (_0x1ab42c, _0x2c7acd) {
-                return _0x1ab42c % _0x2c7acd;
-            },
-            'EURuP': _0x5bbe6a(0xd6)
-        };
-    let _0x4dcaf6 = _0x2d3a98['MjhNX'](isNaN, _0x36830d) ? '--' : Math[_0x5bbe6a(0xc8)](_0x2d3a98[_0x5bbe6a(0xdd)](_0x36830d, 0x67655 * -0x17a + 0x39a55e9 + 0xb16bf99)), _0x570db5 = _0x2d3a98[_0x5bbe6a(0xd1)](isNaN, _0x36830d) ? '--' : Math['floor'](_0x36830d / (0x44c4f * -0x3 + -0x3 * 0x11cffd + 0x794364)) % (0x110b + 0x2 * 0x48c + -0x1a0b), _0x446aca = _0x2d3a98[_0x5bbe6a(0xd7)](isNaN, _0x36830d) ? '--' : _0x2d3a98['TDhey'](Math[_0x5bbe6a(0xc8)](_0x2d3a98[_0x5bbe6a(0xc9)](_0x36830d, 0x1cfc * -0xa + 0x15b5b * -0x1 + 0x36793)), 0xb09 + 0x3df * 0x2 + -0x128b), _0x18e687 = _0x2d3a98[_0x5bbe6a(0xc6)](isNaN, _0x36830d) ? '--' : _0x2d3a98['FMosP'](Math[_0x5bbe6a(0xc8)](_0x2d3a98[_0x5bbe6a(0xc9)](_0x36830d, 0x1b31 + 0x1b77 + -0x32c0)), 0x24f * -0x2 + -0x6cb + 0xba5);
-    return [
-        _0x4dcaf6,
-        _0x2d3a98['EURuP'],
-        _0x570db5,
-        _0x2d3a98[_0x5bbe6a(0xbb)],
-        _0x446aca,
-        _0x2d3a98[_0x5bbe6a(0xbb)],
-        _0x18e687
-    ][_0x5bbe6a(0xcd)](_0x3e0a58 => _0x3e0a58[_0x5bbe6a(0xd2)]()['padStart'](0x218b + 0x16 * 0x81 + -0x2c9f, 0x2 * 0x8f5 + -0x1df6 * -0x1 + -0x2fe0))[_0x5bbe6a(0xda)]('');
-	    }
+let handler = m => m
+handler.all = async function (m) {
+let setting = global.db.data.settings[this.user.jid]
+	
+let _uptime = process.uptime() * 1000
+let _muptime
+if (process.send) { process.send('uptime')
+_muptime = await new Promise(resolve => { process.once('message', resolve) 
+setTimeout(resolve, 2000) }) * 1000}
+let uptime = clockString(_uptime)
+let bio = `𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭 :: ${uptime}`
+await this.updateProfileStatus(bio).catch(_ => _)
+setting.status = new Date() * 1
+} 
+export default handler
+
+function clockString(ms) {
+  let d = isNaN(ms) ? '--' : Math.floor(ms / 86400000)
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000) % 24
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [d, ' ✧ ', h, ' ✧ ', m, ' ✧ ', s].map(v => v.toString().padStart(2, 0)).join('') 
+} 

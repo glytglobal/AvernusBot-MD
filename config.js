@@ -88,7 +88,7 @@ global.moment = moment
 
 // ⪻ DATA - INFO ⪼
 
-/(global.official = [
+/*global.official = [
 ["5493795319019", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', 1],
 ["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', 1]]*/
 

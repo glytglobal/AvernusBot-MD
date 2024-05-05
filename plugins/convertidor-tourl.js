@@ -4,7 +4,7 @@ import uploadFile from '../lib/uploadFile.js'
 import uploadImage from '../lib/uploadImage.js'
 import fetch from 'node-fetch'
 
-var handler = async (m) => {
+let handler = async (m) => {
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_contact.png')

@@ -455,7 +455,6 @@ ${m.isGroup ? `` : `${lenguajeMY.smsConfi9()}`}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiFacebook ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiInstagram ? '✅' : '❌' : lenguajeMY.smsNoGg()}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTwitter ? '✅' : '❌' : lenguajeMY.smsNoGg()}  
-✓ ${LenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['pconly'] ? '✅' : '❌'}
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['gconly'] ? '✅' : '❌'}
 ✓ ${lenguajeMY.smsParaOw()} ${bot.antiPrivate ? '✅' : '❌'}

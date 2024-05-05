@@ -18,9 +18,9 @@ ofc = await conn.getName(number + '@s.whatsapp.net') //String(contact[1])
 let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'undefined')
 let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
 
-nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : official[4][0] == String(contact[0]) ? official[4][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? 'Solo temas de KatashiBot' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
-correo = official[0][0] == String(contact[0]) ? 'katashifukushima23@gmail.com' : official[1][0] == String(contact[0]) ? 'soeasynt@gmail.com' : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto6() : mail === '' ? lenguajeGB.smsContacto6() : mail
+nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : official[4][0] == String(contact[0]) ? official[4][1] : lenguajeMY.smsContacto3() 
+description = official[0][0] == String(contact[0]) ? 'Solo temas de KatashiBot' : official[1][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : desc === '' ? lenguajeMY.smsContacto5() : desc
+correo = official[0][0] == String(contact[0]) ? 'katashifukushima23@gmail.com' : official[1][0] == String(contact[0]) ? 'soeasynt@gmail.com' : official[2][0] == String(contact[0]) ? lenguajeMY.smsContacto6() : mail === '' ? lenguajeMY.smsContacto6() : mail
 lugar = official[0][0] == String(contact[0]) ? '🇵🇪 Perú' : official[1][0] == String(contact[0]) ? '🇲🇽 México' : official[2][0] == String(contact[0]) ? '🇻🇪 Venezuela' : official[3][0] == String(contact[0]) ? '🇲🇽 México' : country === '' ? '🇵🇪 Perú' : country
 enlace = official[0][0] == String(contact[0]) ? 'https://github.com/KatashiFukushima' : official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : official[2][0] == String(contact[0]) ? 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' : official[3][0] == String(contact[0]) ? 'https://chat.whatsapp.com/EBQOkLPgftc8mPR4KTml8S' : md 
 
@@ -29,7 +29,7 @@ lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), pack
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
 
 } catch (e) {
-await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
+await m.reply(lenguajeMY['smsMalError3']() + '\n*' + lenguajeMY.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeMY.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)}} 
 handler.command = /^(contactos?|contacts?)$/i //['contacto', 'contact']  

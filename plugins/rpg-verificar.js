@@ -554,7 +554,7 @@ await conn.sendMessage(m.chat, {
 text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
 *- - - - - - - - - - - - - - - - - - - - - - - - -*\n
 ✿ *REGISTRADO POR*
-❱❱ 𝙈𝙔𝙇𝙄𝙉𝙂𝘽𝙊𝙏-𝙈𝘿
+❱❱ Avernus-Bot-MD
 ✿ *TIPO DE REGISTRO* 
 ❱❱ ${user.registroC === true ? '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘊𝘖𝘔𝘗𝘓𝘌𝘛𝘖' : '𝘙𝘌𝘎𝘐𝘚𝘛𝘙𝘖 𝘙𝘈𝘗𝘐𝘋𝘖'}\n
 ✿ *FECHA/HORA*
@@ -562,7 +562,7 @@ text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
 ✿ *CÓDIGO DE REGISTRO*
 ❱❱ ${sn}\n
 ✿ *INSIGNIA DE VERIFICACIÓN*
-❱❱   *${user.registered === true ? ' 𝐌𝐘𝐋𝐈𝐍𝐆𝐁𝐎𝐓-𝐌𝐃' : ''}*\n
+❱❱   *${user.registered === true ? ' Avernus-Bot-MD' : ''}*\n
 ✿ *NOMBRE* 
 ❱❱ ${user.name}\n
 ✿ *DESCRIPCIÓN*

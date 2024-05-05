@@ -1,10 +1,11 @@
 import { execSync } from 'child_process'
 
 var handler = async (m, { conn, text }) => {
+await conn.sendMessage(m.chat, { react: { text: '☄️', key: m.key } })
 try {
 const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
 let messager = stdout.toString()
-if (messager.includes('Already up to date.')) messager = 'Already up to date.
+if (messager.includes('Already up to date.')) messager = '╰Already up to date.
 '
 if (messager.includes('Updating')) messager = '✅️ *Actualizacion Exitosa.*\n\n' + stdout.toString()
 conn.reply(m.chat, messager, m, fake,)

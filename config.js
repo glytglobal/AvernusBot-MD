@@ -92,7 +92,7 @@ global.official = [
 ["5493795319019", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', 1],
 ["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', 1]]
 
-global.mail = 'glyt.xp.contacto@gmail.com' // AÑADA SU CORREO ELECTRONICO
+global.gmail = 'glyt.xp.contacto@gmail.com' // AÑADA SU CORREO ELECTRONICO
 global.desc = '𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION CORTA
 global.desc2 = '𝐌𝐃𝐊 - 𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION LARGA
 global.country = '🇦🇷' // AÑADA SU PAIS/REGION: 🇦🇷

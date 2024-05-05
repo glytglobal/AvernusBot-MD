@@ -58,7 +58,7 @@ function _0x5eec() {
         'SxnuF',
         'isBanned',
         'zmQrg',
-        '--codigo',
+        '--code',
         'bbLMf',
         'length',
         'parse',

@@ -88,14 +88,21 @@ global.moment = moment
 
 // ⪻ DATA - INFO ⪼
 
-global.official = [
+/(global.official = [
 ["5493795319019", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗', 1],
-["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', 1]]
+["5493795319022", '𝐌𝐃𝐊 - 𝐆𝐋 𝐘𝐓 𝐌𝐗 - 𝐀𝐒𝐈𝐒𝐓𝐄𝐍𝐂𝐈𝐀', 1]]*/
 
-global.gmail = 'glyt.xp.contacto@gmail.com' // AÑADA SU CORREO ELECTRONICO
-global.desc = '𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION CORTA
-global.desc2 = '𝐌𝐃𝐊 - 𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐎𝐅𝐂' // AÑADA UNA DESCRIPCION LARGA
-global.country = '🇦🇷' // AÑADA SU PAIS/REGION: 🇦🇷
+global.official = [ // Agregate si eres Owner
+['18059196237', 'Aj-Md 💻', 1], 
+['5492266466080', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+['5214531106422', '𝗖𝗿𝗲𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
+['5491173694367', 'Prueba', 1]] 
+
+global.mail = '' //agrega tú correo
+global.desc = '' //agrega una descripción corta
+global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
+global.country = '' //agrega tú país ejemplo: 🇪🇨
 
 global.packname = "𝐀𝐯𝐞𝐫𝐧𝐮𝐬𝐁𝐨𝐭-𝐌𝐃"
 global.author = "𝐆𝐋 𝐘𝐓 𝐌𝐗"

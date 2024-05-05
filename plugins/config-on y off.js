@@ -450,12 +450,12 @@ ${m.isGroup ? `` : `${lenguajeMY.smsConfi9()}`}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antifake ? '✅' : '❌' : lenguajeMY.smsNoGg()}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiLink ? '✅' : '❌' : lenguajeMY.smsNoGg()}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiLink2 ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${LenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiYoutube ? '✅' : '❌' : lenguajeMY.smsNoGg()}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTelegram ? '✅' : '❌' : lenguajeMY.smsNoGg()}
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiFacebook ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiInstagram ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTwitter ? '✅' : '❌' : lenguajeMY.smsNoGg()}   
+✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTwitter ? '✅' : '❌' : lenguajeMY.smsNoGg()}  
+✓ ${LenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['pconly'] ? '✅' : '❌'}
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['gconly'] ? '✅' : '❌'}
 ✓ ${lenguajeMY.smsParaOw()} ${bot.antiPrivate ? '✅' : '❌'}

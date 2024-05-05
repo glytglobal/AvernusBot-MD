@@ -24,7 +24,7 @@ correo = official[0][0] == String(contact[0]) ? 'katashifukushima23@gmail.com' :
 lugar = official[0][0] == String(contact[0]) ? '🇵🇪 Perú' : official[1][0] == String(contact[0]) ? '🇲🇽 México' : official[2][0] == String(contact[0]) ? '🇻🇪 Venezuela' : official[3][0] == String(contact[0]) ? '🇲🇽 México' : country === '' ? '🇵🇪 Perú' : country
 enlace = official[0][0] == String(contact[0]) ? 'https://github.com/KatashiFukushima' : official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : official[2][0] == String(contact[0]) ? 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' : official[3][0] == String(contact[0]) ? 'https://chat.whatsapp.com/EBQOkLPgftc8mPR4KTml8S' : md 
    
-lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : null]) }  
+lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' : null])
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeMY.smsContacto8(), mail === '' ? 'katashifukushima23@gmail.com' : mail, lenguajeMY.smsContacto7(), md, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
   

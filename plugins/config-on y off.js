@@ -431,178 +431,34 @@ ${m.isGroup ? `` : `${lenguajeMY.smsConfi9()}`}
 ┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
 
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.welcome ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} welcome
-✓ ${lenguajeMY.smsWel2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.detect ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} detec
-✓ ${lenguajeMY.smsDete2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdYOw()} ${m.isGroup ? chat.autolevelup ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
-✓ ${usedPrefix + command} autolevelup
-✓ ${lenguajeMY.smsANivel2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${bot.restrict ? '✅' : '❌'}
-✓ ${usedPrefix + command} restrict
-✓ ${lenguajeMY.smsRestri2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${bot.antiCall ? '✅' : '❌'}
-✓ ${usedPrefix + command} antiCall
-✓ ${lenguajeMY.smsLlamar2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${bot.antiSpam ? '✅' : '❌'}
-✓ ${usedPrefix + command} antiSpam
-✓ ${lenguajeMY.smsAntiSp2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['self'] ? '❌' : '✅'}
-✓ ${usedPrefix + command} self
-✓ ${lenguajeMY.smsModP2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.modoadmin ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
-✓ ${usedPrefix + command} modoadmin
-✓ ${lenguajeMY.smsModAd2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['autoread'] ? '✅' : '❌'}
-✓ ${usedPrefix + command} autoread
-✓ ${lenguajeMY.smsLect1()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${bot.temporal ? '✅' : '❌'}
-✓ ${usedPrefix + command} temporal
-✓ ${lenguajeMY.smsTempo2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.stickers ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} stickers
-✓ ${lenguajeMY.smsStik1()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.autosticker ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} autosticker
-✓ ${lenguajeMY.smsStickA2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdYOw()} ${m.isGroup ? chat.reaction ? '✅' : '❌' : lenguajeMY.smsNoGg()}    
-✓ ${usedPrefix + command} reaction
-✓ ${lenguajeMY.smsReacc2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdYOw()} ${m.isGroup ? chat.audios ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} audios
-✓ ${lenguajeMY.smsAudi2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antitoxic ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antitoxic
-✓ ${lenguajeMY.smsAntitoc2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdYOw()} ${m.isGroup ? chat.antiver ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiver
-✓ ${lenguajeMY.smsModOb2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdYOw()} ${m.isGroup ? chat.delete ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} delete
-✓ ${lenguajeMY.smsAntiEli2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antifake ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antifake
-✓ ${lenguajeMY.smsAntiInt2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiLink ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiLink
-✓ ${lenguajeMY.smsAntiE2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiLink2 ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiLink2
-✓ ${lenguajeMY.smsAntiEE2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
-✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
-✓ ${usedPrefix + command} antiTiktok
-✓ ${lenguajeMY.smsAntiTT2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
+✓ ${LenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTiktok ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiYoutube ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiYoutube
-✓ ${lenguajeMY.smsAntiYT2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTelegram ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiTelegram
-✓ ${lenguajeMY.smsAntiTEL2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiFacebook ? '✅' : '❌' : lenguajeMY.smsNoGg()} 
-✓ ${usedPrefix + command} antiFacebook
-✓ ${lenguajeMY.smsAntiFB2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiInstagram ? '✅' : '❌' : lenguajeMY.smsNoGg()}
-✓ ${usedPrefix + command} antiInstagram
-✓ ${lenguajeMY.smsAntiIG2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaAdmins()} ${m.isGroup ? chat.antiTwitter ? '✅' : '❌' : lenguajeMY.smsNoGg()}   
-✓ ${usedPrefix + command} antiTwitter
-✓ ${lenguajeMY.smsAntiTW2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['pconly'] ? '✅' : '❌'}
-✓ ${usedPrefix + command} pconly
-✓ ${lenguajeMY.smsSOLOP2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${global.opts['gconly'] ? '✅' : '❌'}
-✓ ${usedPrefix + command} gconly
-✓ ${lenguajeMY.smsSOLOG2()}
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
-
 ✓ ${lenguajeMY.smsParaOw()} ${bot.antiPrivate ? '✅' : '❌'}
-✓ ${usedPrefix + command} antiprivado
-✓ Prohibido usar el bot en privado
-
-┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┅
 
 ${wm}`, fkontak, { mentions: [aa,] })
 //conn.sendMessage(m.chat, { text: texto }, { quoted: fkontak })

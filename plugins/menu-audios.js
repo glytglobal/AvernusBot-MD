@@ -209,7 +209,7 @@ let str = `
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
 
 const sections = [
-{[
+{
 {title: "➥🔊 Elmo", description: null, rowId: `Elmo`},
 {title: "➥🔊 Hola", description: null, rowId: `Hola`},
 {title: "➥🔊 Onichan", description: null, rowId: `Onichan`},

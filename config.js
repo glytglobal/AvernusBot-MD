@@ -230,8 +230,9 @@ global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, asistencia2, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['https://telegra.ph/file/e43024f4f2d970e3c7cbf.png', 'https://telegra.ph/file/45c66b22615c030476cc0.jpg', 'https://telegra.ph/file/5f861408375b072c4b3d8.jpg']
+global.creatorimg = ['https://telegra.ph/file/26fe535b05388915acefc.jpg']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
-global.autoresp = 'https://telegra.ph/file/988c8473c3bd4b6c6a341.png'
+global.autoresp = ['https://telegra.ph/file/988c8473c3bd4b6c6a341.png']
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 

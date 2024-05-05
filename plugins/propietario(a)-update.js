@@ -1,17 +1,41 @@
-import { execSync } from 'child_process' 
-let handler = async (m, { conn, text }) => {
-try {  
-if (global.conn.user.jid == conn.user.jid) {
-let stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''))
-conn.reply(m.chat, stdout.toString(), m)}
-//} catch {
-var update = execSync('git remote set-url origin https://github.com/glytglobal/AvernusBot-MD.git && git pull')
-await m.reply(update.toString())
-} catch {
-await m.reply(`${fg}`) 
-}}
-handler.help = ['update']
+import { execSync } from 'child_process'
+
+var handler = async (m, { conn, text }) => {
+try {
+const stdout = execSync('git pull' + (m.fromMe && text ? ' ' + text : ''));
+let messager = stdout.toString()
+if (messager.includes('Already up to date.')) messager = 'Already up to date.
+'
+if (messager.includes('Updating')) messager = '✅️ *Actualizacion Exitosa.*\n\n' + stdout.toString()
+conn.reply(m.chat, messager, m, fake,)
+} catch { 
+try {
+const status = execSync('git status --porcelain')
+if (status.length > 0) {
+const conflictedFiles = status.toString().split('\n').filter(line => line.trim() !== '').map(line => {
+if (line.includes('.npm/') || line.includes('.cache/') || line.includes('tmp/') || line.includes('sessions/') || line.includes('npm-debug.log')) {
+return null
+}
+return '*→ ' + line.slice(3) + '*'}).filter(Boolean)
+if (conflictedFiles.length > 0) {
+const errorMessage = `🚩 *Se Han Hecho Cambios Locales En Archivos Del Bot Que Entran En Conflicto Con Las Actualizaciones Del Repositorio. Para Actualizar, Reinstala El Bot o Realiza Las Actualizaciones Manualmente*\n\nArchivos En Conflicto:\n\n${conflictedFiles.join('\n')}`
+await conn.reply(m.chat, errorMessage, m, fake,)
+}
+}
+} catch (error) {
+console.error(error)
+let errorMessage2 = '📍 *Ocurrió Un Error.*'
+if (error.message) {
+errorMessage2 += '\n*- Mensaje de error:* ' + error.message;
+}
+await conn.reply(m.chat, errorMessage2, m, fake,)
+}
+}
+
+}
+handler.help = ['update', 'actualizar']
 handler.tags = ['owner']
-handler.command = /^update|actualizar$/i
+handler.command = /^(update|actualizar|gitpull)$/i
 handler.rowner = true
-export default handler 
+
+export default handler

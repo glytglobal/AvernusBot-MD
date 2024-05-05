@@ -16,7 +16,7 @@ contact = contacts[i]
 number = String(contact[0])
 ofc = await conn.getName(number + '@s.whatsapp.net') //String(contact[1])
 let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'undefined')
-let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
+let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeMY.smsContacto2() : desc2}`
 
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : official[4][0] == String(contact[0]) ? official[4][1] : lenguajeMY.smsContacto3() 
 description = official[0][0] == String(contact[0]) ? 'Solo temas de KatashiBot' : official[1][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeMY.smsContacto4() : desc === '' ? lenguajeMY.smsContacto5() : desc

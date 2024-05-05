@@ -107,11 +107,11 @@ let menu = `
 
 ┏━━━━ 𝐓𝐔 𝐍𝐈𝐕𝐄𝐋 ━━━━◉
 ┃꧁TU NIVEL CON
-┃MYLINGBOT-MD
+┃AvernusBOT-MD
 ┃
 ┃ _EXPERIENCIA ➟_ ${exp} ×͜×
 ┃ _DIAMANTES ➟_ ${limit} ⨻
-┃ _MYLINGCOINS ➟_ ${money} ⫹⫺
+┃ _AvernusCOINS ➟_ ${money} ⫹⫺
 ┃ _TOKENS ➟_ ${joincount} ⧎
 ┗━━━━━━━━━━━━━◉
 
@@ -243,7 +243,7 @@ let menu = `
 ┗━━━━━━━━━━━𖡛
 
 ┏━━━ DESCARGAS ━━━⨳
-┃🌟 _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON MYLINGBOT-MD_
+┃🌟 _DESCARGUE O BUSQUE TODO LO QUE QUIERA CON AvernusBOT-MD_
 ┃
 ┃◮ _${usedPrefix}imagen | image *texto*_
 ┃◮ _${usedPrefix}pinterest | dlpinterest *texto*_
@@ -278,7 +278,7 @@ let menu = `
 ┃ _PODRAS ENVIAR SMS DE_
 ┃ _FORMA_
 ┃ _PRIVADA A UNA ANONIMA_
-┃ _CON MYLING_
+┃ _CON Avernus_
 ┃
 ┃𖤌 _${usedPrefix}chatanonimo | anonimochat_
 ┃𖤌 _${usedPrefix}anonimoch_
@@ -288,7 +288,7 @@ let menu = `
 ┗━━━━━━━━━━━━━𖢖
  
 ┏━━━━ GRUPOS ━━━━❍
-┃💧 _CONFIGURACION EN GRUPOS CON MYLINGBOT-MD_
+┃💧 _CONFIGURACION EN GRUPOS CON AvernusBOT-MD_
 ┃❍ _${usedPrefix}add *numero*_
 ┃❍ _${usedPrefix}sacar | ban | kick  *@tag*_
 ┃❍ _${usedPrefix}grupo *abrir : cerrar*_

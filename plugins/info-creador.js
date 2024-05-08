@@ -14,11 +14,13 @@ const cat = `
 𝐂𝐑𝐄𝐀𝐃𝐎𝐑:
 » 𝖦𝖫 𝖸𝖳 𝖬𝖷
 
-𝐈𝐍𝐅𝐎:
-» 𝖣𝖨𝖤𝖦𝖮
-» gitHub.com/
+♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪
 
-
+𝐃𝐈𝐄𝐆𝐎: gitHub.com/Diego-YL-177
+𝐀𝐗𝐗: gitHub.com/Jxntxn17
+𝐈𝐕𝐀𝐍: gitHub.com/elias1524
+𝐄𝐍𝐃𝐄𝐑: gitHub.com/EnderJs-CreatorGL
+𝐌𝐃𝐊: gitHub.com/glytglobal
 `
 
 await conn.sendFile(m.chat, pp, 'Hola.mp3', cat, fkontak)

@@ -15,17 +15,22 @@ additionalText = '𝘼𝙐𝘿𝙄𝙊'
 additionalText = '𝙑𝙄𝘿𝙀𝙊'}
 let captionvid = `*⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐏𝐋𝐀𝐘*
 
-┏━━━━━━━━◉
-┃𝐓𝐈𝐓𝐔𝐋𝐎 - ${yt_play[0].title}
-┃𝐒𝐔𝐁𝐈𝐃𝐎 - ${yt_play[0].ago}
-┃𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍 - ${secondString(yt_play[0].duration.seconds)}
-┃𝐕𝐈𝐒𝐓𝐀𝐒 - ${MilesNumber(yt_play[0].views)}
-┃𝐋𝐈𝐍𝐊 - ${yt_play[0].url}
-┗━━━━━━━━◉
+>
+𝐓𝐈𝐓𝐔𝐋𝐎:
+${yt_play[0].title}
 
-⏤͟͟͞͞𝙀𝙉𝙑𝙄𝘼𝘿𝙊 𝙎𝙐 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
+𝐒𝐔𝐁𝐈𝐃𝐎:
+${yt_play[0].ago}
 
-*✿━━━━━━━━━━✿*`  
+𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍: 
+${secondString(yt_play[0].duration.seconds)}
+𝐕𝐈𝐒𝐓𝐀𝐒:
+${MilesNumber(yt_play[0].views)}
+𝐋𝐈𝐍𝐊:
+${yt_play[0].url}
+
+
+⏤͟͟͞͞𝙀𝙉𝙑𝙄𝘼𝘿𝙊 𝙎𝙐 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {

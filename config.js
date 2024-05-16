@@ -224,7 +224,7 @@ global.img16 = 'https://telegra.ph/file/c314943b11806b25803f3.jpg' //+18
 global.img17 = 'https://telegra.ph/file/38cd8c6bea67860878901.jpg'
 global.img18 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
 
-global.logogit = 'https://telegra.ph/file/75bbb5686e0dff952e79c.jpg'
+global.logogit = 'https://telegra.ph/file/d6ec1843bec94b77f144b.jpg'
 
 global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
 global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, nnnttt1, nnnttt2, nnnttt3, nnnttt4, asistencia2, ig, paypal, yt, asistencia, fb]

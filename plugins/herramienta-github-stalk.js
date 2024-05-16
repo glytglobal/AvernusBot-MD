@@ -1,24 +1,23 @@
 import axios from 'axios'
 var handler = async(m, { conn, text }) => {
 
-  if (!text) return conn.reply(m.chat, '*⚠️ INGRESE EL NOMBRE DE UN USUARIO DE GITHUB*', m)
+  if (!text) return conn.reply(m.chat, '𝘐𝘕𝘎𝘙𝘌𝘚𝘌 𝘌𝘓 𝘕𝘖𝘔𝘉𝘙𝘌 𝘋𝘌𝘓 𝘜𝘚𝘜𝘈𝘙𝘐𝘖/𝘈 𝘘𝘜𝘌 𝘋𝘌𝘚𝘌𝘈 𝘉𝘜𝘚𝘊𝘈𝘙', m)
 
-  await m.reply('*B U S C A N D O ✅*')
+  await m.reply('𝘽𝙐𝙎𝘾𝘼𝙉𝘿𝙊 𝙐𝙎𝙐𝘼𝙍𝙄𝙊')
   let request = await githubstalk(text) 
     let { username, following, followers, type, bio, company, blog, location, email, public_repo, public_gists, profile_pic } = request
     let thumb = await (profile_pic)
-    let hasil = `*⬤── 「 𝙂𝙄𝙏𝙃𝙐𝘽 𝙎𝙏𝘼𝙇𝙆 」 ──⬤*
-➸ *nombre de usuario*: ${username}
-➸ *Bio*: ${bio}
-➸ *Compañía*: ${company}
-➸ *Email:* ${email}
-➸ *Blog:* ${blog}
-➸ *Repositorios públicos:* ${public_repo}
-➸ *Gists Publik:* ${public_gists}
-➸ *Follower:* ${followers}
-➸ *Following:* ${following}
-➸ *Lokasi:* ${location}
-➸ *Type:* ${type}
+    let hasil = `*⪨━◐ 𝑮𝑰𝑻𝑯𝑼𝑩 𝑺𝑻𝑨𝑳𝑲 ◑━⪩*
+❑ *NOMBRE*: ${username}
+❑ *BIO*: ${bio}
+❑ *COMPAÑIA*: ${company}
+❑ *EMAIL:* ${email}
+❑ *REPOSITORIOS:* ${public_repo}
+❑ *GITS PÚBLICOS:* ${public_gists}
+❑ *SEGUIDORES:* ${followers}
+❑ *SIGUIENDO:* ${following}
+❑ *LUGAR:* ${location}
+❑ *ESTADO:* ${type}
 `
 
     conn.sendFile(m.chat, logogit, 'githubstalk.jpg', hasil, m)

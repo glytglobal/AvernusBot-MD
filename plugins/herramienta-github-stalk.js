@@ -7,11 +7,12 @@ var handler = async(m, { conn, text }) => {
   let request = await githubstalk(text) 
     let { username, following, followers, type, bio, company, blog, location, email, public_repo, public_gists, profile_pic } = request
     let thumb = await (profile_pic)
-    let hasil = `*⪨━◐ 𝑮𝑰𝑻𝑯𝑼𝑩 𝑺𝑻𝑨𝑳𝑲 ◑━⪩*
+    let hasil = `*𝙂𝙄𝙏𝙃𝙐𝘽 𝙎𝙏𝘼𝙇𝙆*
 ❑ *NOMBRE*: ${username}
 ❑ *BIO*: ${bio}
 ❑ *COMPAÑIA*: ${company}
 ❑ *EMAIL:* ${email}
+❑ *BLOG:* ${blog}
 ❑ *REPOSITORIOS:* ${public_repo}
 ❑ *GITS PÚBLICOS:* ${public_gists}
 ❑ *SEGUIDORES:* ${followers}

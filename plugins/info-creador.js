@@ -2,25 +2,13 @@ var handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let pp = creatorimg.getRandom()        
 const cat = `
+*_GRACIAS POR USAR ESTE BOT Y NUESTROS SERVICIOS_*
 
-𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑨 𝑳𝑶𝑺 𝑪𝑶𝑳𝑨𝑩𝑶𝑹𝑨𝑫𝑶𝑹𝑬𝑺 𝑫𝑬 𝑬𝑺𝑻𝑬 𝑷𝑹𝑶𝒀𝑬𝑪𝑻𝑶 𝑷𝑶𝑹 𝑨𝒀𝑼𝑫𝑨𝑹𝑴𝑬 𝒀 𝑫𝑨𝑹𝑴𝑬 𝑼𝑵𝑨 𝑴𝑨𝑵𝑶 𝑪𝑼𝑨𝑵𝑫𝑶 𝑳𝑨 𝑵𝑬𝑪𝑬𝑺𝑰𝑻𝑬
-
-𝐂𝐎𝐋𝐀𝐁𝐎𝐑𝐀𝐃𝐎𝐑𝐄𝐒:
-» 𝖣𝖨𝖤𝖦𝖮
-» 𝖠𝖷𝖷
-» 𝖨𝖵𝖠𝖭
-» 𝖤𝖭𝖣𝖤𝖱 𝖳𝖠𝖫𝖫𝖸𝖢𝖫𝖤𝖱𝖪
-
-𝐂𝐑𝐄𝐀𝐃𝐎𝐑:
-» 𝖦𝖫 𝖸𝖳 𝖬𝖷
-
-♫♪.ılılıll|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|llılılı.♫♪
-
-𝐃𝐈𝐄𝐆𝐎: gitHub.com/Diego-YL-177
-𝐀𝐗𝐗: gitHub.com/Jxntxn17
-𝐈𝐕𝐀𝐍: gitHub.com/elias1524
-𝐄𝐍𝐃𝐄𝐑: gitHub.com/EnderJs-CreatorGL
-𝐌𝐃𝐊: gitHub.com/glytglobal
+_CREADOR: MDK - GL YT MX_
+_YOUTUBE: ${yt}_
+_INSTAGRAM ${ig}_
+_GITHUB: {gitcreator}_
+_GIT-BOT: {github}_
 `
 
 await conn.sendFile(m.chat, pp, 'Hola.mp3', cat, fkontak)

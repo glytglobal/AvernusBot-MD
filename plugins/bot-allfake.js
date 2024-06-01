@@ -30,7 +30,7 @@ console.log(`Error : ${e}`)
 let pp = ''
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
 
-const moji = (await axios.get(`https://raw.githubusercontent.com/AzamiJS/CuriosityBot-MD/main/storage/juegos/emojis.json`)).data
+const moji = (await axios.get(`https://raw.githubusercontent.com/GataNina-Li/YartexBot-MD/main/storage/juegos/emojis.json`)).data
 const emoji = await moji[Math.floor(moji.length * Math.random())]
 
 var credit = 'X8KpIFJlcXVlc3RlZCBieSBDdXJpb3NpdHlCb3Rf'

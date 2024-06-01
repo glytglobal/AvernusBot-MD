@@ -39,14 +39,14 @@ isForwarded: false,
 "externalAdReply": {
 "showAdAttribution": true,
 "containsAutoReply": true,
-title: `⏤͟͟͞͞𝐁𝐎𝐗𝐌𝐈𝐍𝐄 - 𝐖𝐎𝐑𝐋𝐃`,
-body: `✿ HOSTING DE LUJO ✿`,
+title: `CODESANDBOX`,
+body: `SERVICIO DE CALIDAD UNICA`,
 "previewType": "PHOTO",
-thumbnailUrl: 'https://telegra.ph/file/767775d7250ae841a9cb6.jpg', 
-sourceUrl: 'https://whatsapp.com/channel/0029Va71C1q2UPBOICnxu83r'}}},
+thumbnailUrl: 'https://telegra.ph/file/2c3f29eca2afca7b75111.jpg', 
+sourceUrl: 'https://whatsapp.com/channel/0029VagAcYlGE56u6WANKc2w'}}},
 { quoted: m})
 }
 handler.tags =['info'] 
-handler.help = ['infinity', 'host', 'hosting'] 
-handler.command = /^(infinity|infinityWa|host|hosting)$/i
+handler.help = ['codex', 'host', 'csb'] 
+handler.command = /^(codex|codesandbox|host|csb)$/i
 export default handler

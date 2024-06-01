@@ -114,6 +114,7 @@ global.yt = "https://youtube.com/@GLYTMX"
 global.yt2 = "https://www.youtube.com/shorts/"
 global.ig = "https://www.instagram.com/"
 global.md = "https://github.com/glytglobal/AvernusBot-MD/"
+global.gitcreator = "https://github.com/glytglobal"
 global.fb = "https://www.facebook.com/GLYTMX" // PROXIMAMENTE
 
 global.cnl = 'https://whatsapp.com/channel/1'

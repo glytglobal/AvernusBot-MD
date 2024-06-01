@@ -5,7 +5,7 @@ import axios from 'axios'
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper'
 let handler = async (m, { conn, command, args, text, usedPrefix }) => {
 let q, v, yt, dl_url, ttl, size, lolhuman, lolh, n, n2, n3, n4, cap, qu, currentQuality   
-if (!text) await conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}ᴜsᴏ ɴᴏ ᴄᴏʀʀᴇᴄᴛᴏ ᴅᴇʟ ᴄᴏᴍᴀɴᴅᴏ, ᴛʀᴀᴛᴀ ᴅᴇ ᴘᴏɴᴇʀ ᴜɴ ʟɪɴᴋ\nEᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} Sixto Yegros FT YSY A - PING PONG*\n\nAǫᴜɪ ᴛɪᴇɴᴇs ᴏᴛʀᴀ ᴅᴇᴍᴏsᴛʀᴀᴄɪᴏɴ\nᴇᴊᴇᴍᴘʟᴏ:\n*${usedPrefix + command} YSY A - Pastel Con Nutella*`, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
+if (!text) await conn.reply(m.chat, `${lenguajeMY['smsAvisoMG']()}_ENVIE EL COMANDO CON EL NOMBRE DE SU VIDEO O MUSICA QUE DESEE DESCARGAR_\n*_EJEMPLO:_*\n*${usedPrefix + command} CALIFONIA - LIT KILLAH´, m, { contextInfo: { 'forwardingScore': 200, 'isForwarded': false, externalAdReply:{ showAdAttribution: false, title: wm, body: `Canal de WhatsApp`, mediaType: 3, sourceUrl: cnl, thumbnail: imagen1}}}, { quoted: m })
 try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
@@ -16,18 +16,19 @@ additionalText = '𝙑𝙄𝘿𝙀𝙊'}
 let captionvid = `*⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐏𝐋𝐀𝐘*
 
 > 𝐓𝐈𝐓𝐔𝐋𝐎:
-${yt_play[0].title}
-
-𝐒𝐔𝐁𝐈𝐃𝐎:
-${yt_play[0].ago}
-
-𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍: 
-${secondString(yt_play[0].duration.seconds)}
-𝐕𝐈𝐒𝐓𝐀𝐒:
-${MilesNumber(yt_play[0].views)}
-𝐋𝐈𝐍𝐊:
-${yt_play[0].url}
-
+>${yt_play[0].title}
+>
+> 𝐒𝐔𝐁𝐈𝐃𝐎:
+> ${yt_play[0].ago}
+>
+> 𝐃𝐔𝐑𝐀𝐂𝐈𝐎𝐍: 
+> ${secondString(yt_play[0].duration.seconds)}
+>
+> 𝐕𝐈𝐒𝐓𝐀𝐒:
+> ${MilesNumber(yt_play[0].views)}
+>
+> 𝐋𝐈𝐍𝐊:
+> ${yt_play[0].url}
 
 ⏤͟͟͞͞𝙀𝙉𝙑𝙄𝘼𝘿𝙊 𝙎𝙐 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍`  
 await conn.sendMessage(m.chat, {

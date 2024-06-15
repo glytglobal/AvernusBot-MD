@@ -5,7 +5,7 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/WilsonOFC/MylingBot-MD/tree/main
+RUN git clone https://github.com/glytglobal/AvernusBot-MD/tree/main
 WORKDIR /root/AvernusBot-MD
 
 COPY ./root/AvernusBot-MD

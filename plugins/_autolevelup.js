@@ -16,22 +16,21 @@ let before = user.level * 1
 while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++
  if (before !== user.level) {
 
- conn.reply(m.chat, `*╭━⊰ ${username} ⊱━დ*
+/* conn.reply(m.chat, `*╭━⊰ ${username} ⊱━დ*
 *┃ ${lenguajeMY.smsAutoLv2()} ${before}*
 *┃ ${lenguajeMY.smsAutoLv3()} ${user.level}*
 *┃ ${lenguajeMY.smsAutoLv4()}* ${user.role}
 *┃ ${lenguajeMY.smsAutoLv5()} ${new Date().toLocaleString('id-ID')}*
-*╰━⊰ ${lenguajeMY.smsAutoLv1()} ⊱━━დ*
+*╰━⊰ ${lenguajeMY.smsAutoLv1()} ⊱━━დ* */
 
-*_${lenguajeMY.smsAutoLv6()}_*`, fkontak, m)  		  	 
-/*conn.sendButton(m.chat, '🐈 ' + wm, `*╭━⊰ ${username} ⊱━დ*
-*┃ ${lenguajeMY.smsAutoLv2()} ${before}*
-*┃ ${lenguajeMY.smsAutoLv3()} ${user.level}*
-*┃ ${lenguajeMY.smsAutoLv4()}* ${user.role}
-*┃ ${lenguajeMY.smsAutoLv5()} ${new Date().toLocaleString('id-ID')}*
-*╰━⊰ ${lenguajeMY.smsAutoLv1()} ⊱━━დ*
+conn.sendButton(m.chat, '🐈 ' + wm, `┌─⊰ ${gt} ⊱─⟢
+│✨️ ${lenguajeMY.smsAutoLv2()} ${before}*
+│✨️ ${lenguajeMY.smsAutoLv3()} ${user.level}*
+│✨️ ${lenguajeMY.smsAutoLv4()}* ${user.role}
+│✨️ ${lenguajeMY.smsAutoLv5()} ${new Date().toLocaleString('id-ID')}*
+└─⊰ ${lenguajeMY.smsAutoLv1()} ⊱──⟢
 
-*_${lenguajeMY.smsAutoLv6()}_*`, null, [[lenguajeMY.smsConMenu(), `/menu`]], m)*/
+*_${lenguajeMY.smsAutoLv6()}_*`, null, [[lenguajeMY.smsConMenu(), `${usedPrefix}menu`]], null, null, fkontak)
 
 
 let especial = ['limit', 'diamond', 'joincount', 'emerald', 'berlian', 'kyubi', 'gold', 'money', 'tiketcoin', 'stamina'].getRandom()

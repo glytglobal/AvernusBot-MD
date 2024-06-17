@@ -13,7 +13,7 @@ if (command === 'play') {
 additionalText = '𝘼𝙐𝘿𝙄𝙊'
 } else if (command === 'play2') {
 additionalText = '𝙑𝙄𝘿𝙀𝙊'}
-let captionvid = `*⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐏𝐋𝐀𝐘*
+let captionvid = `⏤͟͟͞͞𝐀𝐕𝐄𝐑𝐍𝐔𝐒 - 𝐏𝐋𝐀𝐘
 
 > 𝐓𝐈𝐓𝐔𝐋𝐎:
 >${yt_play[0].title}

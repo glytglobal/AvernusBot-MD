@@ -94,10 +94,10 @@ apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/WilsonOFC/MylingBot-MD
+git clone https://github.com/glytglobal/AvernusBot-MD
 ```
 ```bash
-cd MylingBot-MD
+cd AvernusBot-MD 
 ```
 ```bash
 yarn install
@@ -119,7 +119,7 @@ npm start
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR ARCHIVOS
 > [!NOTE]
 > DESCARGUE Y DESCOMPRIME EL ARCHIVO
-### [`MylingBot-MD ~ Archivos`](https://github.com/WilsonOFC/MylingBot-MD/archive/refs/heads/master.zip)
+### [`AvernusBot-MD ~ Archivos`](https://github.com/WilsonOFC/AvernusBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 ```bash
@@ -127,7 +127,7 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/MylingBot-MD/MylingBot-MD-master 
+cd storage/downloads/AvernusBot-MD/AvernusBot-MD-master 
 yarn install
 npm install
 npm start
@@ -136,11 +136,11 @@ npm start
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
   
 > [!NOTE]
-> Guardar los archivos en la ubicación: storage/downloads/MylingBot-MD-master/MylingBot-MD-master   
+> Guardar los archivos en la ubicación: storage/downloads/AvernusBot-MD-master/AvernusBot-MD-master   
 ----
-### 🚀 USAR MYLINGBOT 24/7 EN TERMUX 
+### 🚀 USAR AVERNUSBOT 24/7 EN TERMUX 
 > [!TIP]
->  Ejecutar estos comandos dentro de la carpeta MylingBot-MD
+>  Ejecutar estos comandos dentro de la carpeta AvernusBot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -163,15 +163,15 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-###  ACTUALIZAR MYLINGBOT 🔥👻
+###  ACTUALIZAR AVERNUSBOT 🔥👻
 > [!TIP]
-> Comandos para actualizar de forma automática MylingBot-MD
+> Comandos para actualizar de forma automática AvernusBot-MD
 
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
 ```
 > [!CAUTION]
-> Para que no pierda su progreso en MylingBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+> Para que no pierda su progreso en AvernusBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 >  Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
 ----
 > [!WARNING]
